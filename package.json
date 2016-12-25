@@ -1,0 +1,17 @@
+{
+  "name": "telegram-test-bot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "telebot": "^1.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon $NODE_DEBUG_OPTION server.js",
+    "start": "node server.js"
+  }
+}
